@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <title>Galeria Botolka</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #eee;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #222;
+      padding: 20px;
+    }
+    h1 {
+      color: #4CAF50;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px;
+    }
+    .gallery img {
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.6);
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      background: #222;
+      padding: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Galeria Botolka</h1>
+    <p>Przygody Krzysztofa i Botolka 🌟</p>
+  </header>
+
+  <div class="gallery">
+    <img src="botolek1.png" alt="Botolek rysuje z Krzysztofem">
+    <img src="botolek2.png" alt="Krzysztof i Botolek na ławce">
+    <!-- Możesz dodawać kolejne obrazki tutaj -->
+  </div>
+
+  <footer>
+    © 2025 Krzysztof & Botolek
+  </footer>
+</body>
+</html>
